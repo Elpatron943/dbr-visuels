@@ -7,3 +7,13 @@ Visuels publics de Daily Business Review (blog et LinkedIn), produits par Nora, 
 - `exemples/` : prototypes de gabarits.
 
 Rien de confidentiel ici : uniquement des visuels destinés à être publiés.
+
+## Carrousels LinkedIn : rattachement automatique
+
+Quand Nora dépose `carrousels/<slug>/typefully.json` :
+
+```json
+{ "social_set_id": 339361, "draft_id": 123, "pdf": "carrousel.pdf", "file_name": "Titre-du-carrousel.pdf", "alt_text": "…" }
+```
+
+l'action GitHub « Joindre les carrousels à Typefully » envoie le PDF à Typefully et le joint au brouillon, sans toucher au texte ni à la date. Le brouillon reste planifié et inerte : rien n'est publié sans validation. Un fichier `typefully-attached.json` est ajouté une fois le rattachement fait. Secret requis : `TYPEFULLY_API_KEY`.

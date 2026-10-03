@@ -1,0 +1,38 @@
+name: Joindre les carrousels à Typefully
+
+on:
+  push:
+    branches: [main]
+    paths: ["carrousels/**/typefully.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attach-carousel
+  cancel-in-progress: false
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Joindre les PDF aux brouillons Typefully
+        env:
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+        run: node scripts/attach-carousel.mjs
+      - name: Enregistrer les carrousels traités
+        if: always()
+        run: |
+          git config user.name "dbr-visuels-bot"
+          git config user.email "actions@github.com"
+          git add carrousels/*/typefully-attached.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Carrousels joints à Typefully"
+            git push
+          fi
