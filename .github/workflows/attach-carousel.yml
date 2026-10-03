@@ -16,6 +16,7 @@ concurrency:
 jobs:
   attach:
     runs-on: ubuntu-latest
+    environment: Typefully
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +25,7 @@ jobs:
           node-version: 20
       - name: Joindre les PDF aux brouillons Typefully
         env:
-          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY || secrets.TYPELUFFY }}
         run: node scripts/attach-carousel.mjs
       - name: Enregistrer les carrousels traités
         if: always()
