@@ -6,7 +6,7 @@ import path from "node:path";
 
 const KEY = process.env.TYPEFULLY_API_KEY;
 const API = "https://api.typefully.com/v2";
-if (!KEY) { console.error("Secret TYPEFULLY_API_KEY absent : ajoute-le dans Settings → Secrets and variables → Actions."); process.exit(1); }
+if (!KEY) { console.error("::error::Secret TYPEFULLY_API_KEY absent : ajoute-le dans Settings → Secrets and variables → Actions."); process.exit(1); }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function api(method, url, body) {
@@ -86,7 +86,7 @@ for (const dir of dirs) {
     done++;
   } catch (e) {
     failures++;
-    console.error(`${dir} : ÉCHEC — ${e.message}`);
+    console.error(`::error::${dir} : ÉCHEC — ${e.message}`);
   }
 }
 console.log(`Terminé : ${done} carrousel(s) joint(s), ${failures} échec(s).`);
