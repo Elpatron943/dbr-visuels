@@ -1,0 +1,16 @@
+{"format":"blog","kicker":"Découverte client","slides":[
+{"name":"cover.png","layout":"cover","title":"Questions de découverte client : le guide en *sept familles*","subtitle":"Faire parler le client de son moteur, pas de votre produit."},
+{"name":"moteur.png","layout":"grid","kicker":"Le moteur du client","columns":3,"title":"Trois composantes à faire *dire au client*","cells":[
+{"title":"1. Le déclencheur","text":"L'événement ou la pression qui rend le sujet urgent : réorganisation, objectif annuel, incident, échéance."},
+{"title":"2. L'enjeu","text":"Ce que le client gagne s'il résout le problème, dans ses mots et dans ses indicateurs."},
+{"title":"3. Le risque de ne rien faire","text":"Ce qui se passe s'il laisse les choses en l'état. La composante la plus oubliée, et la plus prédictive."}]},
+{"name":"familles.png","layout":"grid","kicker":"Couvrir une opportunité","columns":4,"title":"Les *sept familles* de questions","cells":[
+{"title":"1. Situation","text":"Le contexte, sans examen"},
+{"title":"2. Problème","text":"Ce qui ne fonctionne pas"},
+{"title":"3. Conséquences","text":"Le coût de l'inaction"},
+{"title":"4. Calendrier","text":"Le critical event"},
+{"title":"5. Décision","text":"Qui décide, comment, sur quels critères"},
+{"title":"6. Budget","text":"Un arbitrage plutôt qu'un montant"},
+{"title":"7. Risques et alternatives","text":"Ce qui peut bloquer, statu quo compris"},
+{"title":"La règle","text":"Le vrai concurrent n'est pas un autre fournisseur : c'est le statu quo."}]}
+]}

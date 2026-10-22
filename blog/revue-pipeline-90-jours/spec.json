@@ -1,0 +1,24 @@
+{"format":"blog","kicker":"Revue de pipeline","slides":[
+{"name":"cover.png","layout":"cover","title":"Revue de pipeline : ce qui doit avoir changé *après 90 jours*","subtitle":"L'adoption n'est pas un résultat. Une revue se juge à ses décisions."},
+{"name":"changements.png","layout":"grid","kicker":"Au jour 90","columns":4,"title":"Sept changements *observables*","cells":[
+{"title":"1. Les questions","text":"« Qu'est-ce qui le ferait échouer ? »"},
+{"title":"2. Une action par deal","text":"Objectif, responsable, date"},
+{"title":"3. Deals sans décision","text":"Requalifiés ou fermés plus tôt"},
+{"title":"4. Comité d'achat","text":"Nommé sur les deals majeurs"},
+{"title":"5. Glissements de date","text":"Chacun a une cause client"},
+{"title":"6. Forecast","text":"Discuté par niveau de risque"},
+{"title":"7. Le commercial","text":"Arrive avec son analyse"},
+{"title":"La règle","text":"4 lignes sur 7 au niveau attendu : la revue a basculé."}]},
+{"name":"avant-apres.png","layout":"table","kicker":"Le contrôle en 30 minutes","title":"Jour 0 contre *jour 90*","head":["Dimension","Revue au jour 0","Revue au jour 90"],"highlight":2,"rows":[
+["Question d'ouverture","Où en est ce deal ?","Qu'est-ce qui peut le faire échouer ?"],
+["Sortie par deal","Un statut mis à jour","Une action datée avec un responsable"],
+["Deals sans décision","Repoussés au trimestre suivant","Requalifiés ou fermés avec une raison"],
+["Comité d'achat","Un contact principal","Rôles nommés sur les deals majeurs"],
+["Glissement de date","Sans explication","Rattaché à un événement client"],
+["Forecast","Somme des stages pondérés","Discuté deal par deal selon le risque"],
+["Rôle du manager","Contrôler","Challenger et débloquer"]]},
+{"name":"jalons.png","layout":"grid","kicker":"Jalonnement","columns":3,"title":"Un jalon *par mois*","cells":[
+{"title":"Jour 30 : la forme","text":"Les questions ont changé, chaque deal discuté sort avec une action."},
+{"title":"Jour 60 : le fond","text":"Comité d'achat nommé sur les deals majeurs, premiers deals sans décision requalifiés."},
+{"title":"Jour 90 : le résultat","text":"Forecast comparé au réalisé, deal par deal. L'écart est expliqué."}]}
+]}
