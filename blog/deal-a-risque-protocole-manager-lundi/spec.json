@@ -1,0 +1,52 @@
+{
+  "format": "blog",
+  "kicker": "Gestion du risque",
+  "slides": [
+    {
+      "name": "cover.png",
+      "layout": "cover",
+      "title": "Deal à risque : le protocole du manager *le lundi matin*",
+      "subtitle": "Lire le fait, nommer la cause, trancher, agir, mettre le forecast à jour. En 30 minutes."
+    },
+    {
+      "name": "causes.png",
+      "layout": "table",
+      "kicker": "Diagnostiquer",
+      "title": "Trois causes de risque, *trois traitements*",
+      "head": ["Cause", "Signal typique", "Premier traitement"],
+      "highlight": 2,
+      "rows": [
+        ["Pouvoir", "Sponsor qui part, veto découvert, acheteur économique jamais rencontré", "Rencontrer l'acheteur économique sous dix jours"],
+        ["Processus", "Étape achats, juridique ou sécurité découverte tard", "Obtenir le calendrier écrit et recalculer la date"],
+        ["Urgence", "Date qui glisse sans raison, coût de l'inaction non chiffré", "Faire chiffrer le coût de l'inaction par le client"]
+      ]
+    },
+    {
+      "name": "decisions.png",
+      "layout": "grid",
+      "kicker": "Trancher",
+      "title": "Une décision parmi trois, *écrite noir sur blanc*",
+      "columns": 3,
+      "cells": [
+        { "title": "Sauver", "text": "Cause identifiée, action qui dépend de vous, interlocuteur joignable sous deux semaines." },
+        { "title": "Requalifier", "text": "Retour à l'étape où la première preuve manque. Le deal reste au pipeline, sort du commit." },
+        { "title": "Sortir du forecast", "text": "Personne n'a agi côté client depuis des semaines. On cesse de compter dessus ce trimestre." }
+      ]
+    },
+    {
+      "name": "forecast.png",
+      "layout": "table",
+      "kicker": "Le cas Helix (fictif)",
+      "title": "Ce que le forecast dit *lundi soir*",
+      "head": ["Élément", "Avant la revue", "Après la revue"],
+      "highlight": 2,
+      "rows": [
+        ["Catégorie", "Commit", "Best case"],
+        ["Étape", "Négociation", "Validation de la solution"],
+        ["Date de signature", "Dans six semaines", "À recalculer avec le calendrier des achats"],
+        ["Montant", "310 k€", "310 k€, inchangé"],
+        ["Prochain point", "Revue de pipe suivante", "Jeudi, sur les preuves attendues"]
+      ]
+    }
+  ]
+}
