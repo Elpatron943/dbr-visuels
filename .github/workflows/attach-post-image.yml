@@ -1,0 +1,40 @@
+name: Joindre les images des posts à Typefully
+
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**/typefully.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attach-post-image
+  cancel-in-progress: false
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    environment: Typefully
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Joindre les images aux brouillons existants (jamais de nouveau brouillon)
+        env:
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY || secrets.TYPELUFFY }}
+        run: node scripts/attach-post-image.mjs
+      - name: Enregistrer les posts traités
+        if: always()
+        run: |
+          git config user.name "dbr-visuels-bot"
+          git config user.email "actions@github.com"
+          for f in posts/*/image-attached.json; do [ -f "$f" ] && git add "$f"; done
+          if ! git diff --cached --quiet; then
+            git commit -m "Images des posts jointes à Typefully"
+            git pull --rebase origin main
+            git push
+          fi
