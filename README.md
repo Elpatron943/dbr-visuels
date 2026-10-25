@@ -1,4 +1,4 @@
-# DBR — visuels marketing
+# DBR | visuels marketing
 
 Visuels publics de Daily Business Review (blog et LinkedIn), produits par Nora, l'agent studio, selon le système de design DBR (fond #0A0A0D, or #F5C542, Manrope).
 

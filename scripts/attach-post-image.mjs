@@ -87,7 +87,7 @@ for (const dir of dirs) {
     done++;
   } catch (e) {
     failures++;
-    console.error(`::error::${dir} : ÉCHEC — ${e.message}`);
+    console.error(`::error::${dir} : ÉCHEC, ${e.message}`);
   }
 }
 console.log(`Terminé : ${done} image(s) jointe(s), ${failures} échec(s).`);
