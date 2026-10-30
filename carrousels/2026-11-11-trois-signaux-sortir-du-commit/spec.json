@@ -1,0 +1,114 @@
+{
+ "format": "portrait",
+ "kicker": "S03 · DÉRISQUER UN DEAL",
+ "slides": [
+  {
+   "layout": "cover",
+   "kicker": "S1 · ÉP. 3 · JOUR 3 · LA MÉTHODE",
+   "title": "*Trois* signaux suffisent à sortir un deal du Commit",
+   "subtitle": "Rappel (deal fictif) : en Commit, il a glissé de deux trimestres. Le risque était visible dès la découverte."
+  },
+  {
+   "layout": "quote",
+   "title": "« Il était en copie du *dernier* mail. »",
+   "subtitle": "La réponse du commercial quand le manager demande quand il a parlé au DAF pour la dernière fois (cas fictif)."
+  },
+  {
+   "layout": "compare",
+   "title": "Ta revue juge une *impression*",
+   "a": {
+    "tag": "Le piège",
+    "title": "L'impression",
+    "items": [
+     "L'étape du deal dans le CRM",
+     "La confiance du commercial",
+     "« Ils adorent la solution »"
+    ]
+   },
+   "b": {
+    "tag": "Ce qui marche",
+    "title": "Le fait acheteur",
+    "items": [
+     "Un nom",
+     "Une date",
+     "Une action réalisée par le client"
+    ]
+   }
+  },
+  {
+   "layout": "grid",
+   "title": "20 signaux en cinq *familles*",
+   "cells": [
+    {
+     "title": "1. Pouvoir",
+     "text": "L'acheteur économique et le veto"
+    },
+    {
+     "title": "2. Urgence",
+     "text": "Un critical event daté côté client"
+    },
+    {
+     "title": "3. Processus",
+     "text": "Le circuit de décision et les achats"
+    },
+    {
+     "title": "4. Engagement",
+     "text": "Ce que l'acheteur fait vraiment"
+    },
+    {
+     "title": "5. Statu quo",
+     "text": "Le vrai concurrent du deal"
+    },
+    {
+     "title": "La règle",
+     "text": "Dans le doute, on coche : un doute est déjà un signal"
+    }
+   ]
+  },
+  {
+   "layout": "list",
+   "title": "Le trio qui sort un deal du *Commit*",
+   "subtitle": "Cochés ensemble : ni qui signe, ni pourquoi à cette date, ni par quel chemin.",
+   "items": [
+    {
+     "title": "Acheteur économique jamais revu",
+     "text": "Signal 1 : son nom, son rôle, la date du dernier échange direct"
+    },
+    {
+     "title": "Aucun critical event daté",
+     "text": "Signal 5 : lancement, fin de contrat, budget annuel côté client"
+    },
+    {
+     "title": "Processus de décision non décrit",
+     "text": "Signal 9 : étapes, signataires, comités, décrits par le client"
+    }
+   ]
+  },
+  {
+   "layout": "list",
+   "title": "La lecture, avant la *revue*",
+   "subtitle": "Le total ne prédit rien seul : il dit quel temps donner au deal. Seuils à ajuster à ton cycle.",
+   "items": [
+    {
+     "title": "0 à 3 signaux",
+     "text": "Sous contrôle"
+    },
+    {
+     "title": "4 à 7 signaux",
+     "text": "À risque"
+    },
+    {
+     "title": "8 signaux et plus",
+     "text": "À requalifier"
+    }
+   ],
+   "source": "Règle de lecture DBR"
+  },
+  {
+   "layout": "cta",
+   "title": "Chaque case cochée devient une action *datée*",
+   "subtitle": "Une action, un responsable, une date avant la prochaine revue. L'article complet sur le blog DBR.",
+   "button": "Lire l'article"
+  }
+ ]
+}
