@@ -1,0 +1,12 @@
+{
+  "format": "blog",
+  "kicker": "Vente B2B",
+  "slides": [
+    {
+      "name": "cover.png",
+      "layout": "cover",
+      "title": "Les *7 types* de vente B2B",
+      "subtitle": "Interlocuteurs, durée de closing et bonnes pratiques, de la vente transactionnelle à la vente transformationnelle."
+    }
+  ]
+}
