@@ -1,0 +1,31 @@
+{"format":"blog","kicker":"Qualification","slides":[
+{"name":"couverture.png","layout":"grid","kicker":"Qualification d'opportunité","columns":4,"title":"Qualification : *8 critères* et leur preuve","cells":[
+{"title":"1. Problème","text":"Décrit par le client, avec ses mots"},
+{"title":"2. Coût de l'inaction","text":"Un impact chiffré ou daté, dit par le client"},
+{"title":"3. Échéance","text":"Un événement daté qui oblige à décider"},
+{"title":"4. Décideur","text":"Nommé et rencontré, pas tiré de l'organigramme"},
+{"title":"5. Processus","text":"Étapes, personnes et délais décrits"},
+{"title":"6. Critères","text":"Une liste ordonnée, de source connue"},
+{"title":"7. Champion","text":"Une action faite pour le deal"},
+{"title":"8. Concurrence","text":"Options citées, statu quo compris"}]},
+{"name":"infographie-1-test-de-decision.png","layout":"grid","kicker":"Le test de décision","columns":4,"title":"Trois états, quatre *décisions*","cells":[
+{"title":"Preuve","text":"Qui l'a dit ou fait, quand, et ce qui le montre"},
+{"title":"Déclaration","text":"Affirmé sans fait vérifiable"},
+{"title":"Inconnu","text":"Question jamais posée, ou réponse évitée"},
+{"title":"La règle","text":"Aucun changement d'étape avec un critère requis inconnu"},
+{"title":"Poursuivre","text":"Les critères de l'étape sont tous en preuve"},
+{"title":"Investir pour prouver","text":"Une ou deux déclarations : une action datée par critère"},
+{"title":"Revenir en découverte","text":"Problème ou coût de l'inaction inconnus"},
+{"title":"Sortir","text":"Refus de répondre sur trois critères ou plus"}]},
+{"name":"infographie-2-preuves-par-etape.png","layout":"table","kicker":"Le cycle de vente","title":"Ce qui doit être *prouvé* à chaque étape","head":["Étape","Critères à prouver","Signal d'alerte"],"rows":[
+["Découverte","1. Problème, 2. Coût de l'inaction","« Envoyez-moi une documentation »"],
+["Validation du besoin","3. Échéance, 7. Champion","Pas de deuxième réunion possible"],
+["Démonstration","4. Décideur, 6. Critères","Démonstration sans le décideur"],
+["Proposition","5. Processus, 8. Concurrence","Personne ne sait qui signe"],
+["Négociation","Les 8 en preuve","Les achats arrivent sans annonce"]]},
+{"name":"infographie-3-methodes.png","layout":"grid","kicker":"Méthodes de qualification","columns":4,"title":"Quatre méthodes, quatre *questions*","cells":[
+{"title":"BANT","text":"Le client peut-il acheter ? Premier tri, ventes courtes."},
+{"title":"MEDDIC","text":"Le deal peut-il aboutir ? Ventes à plusieurs décideurs."},
+{"title":"MEDDPICC","text":"Le deal peut-il être signé ? Achats et juridique impliqués."},
+{"title":"SPIN","text":"Le client a-t-il formulé son besoin ? La découverte."}]}
+]}
