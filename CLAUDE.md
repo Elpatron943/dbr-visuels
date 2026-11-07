@@ -35,3 +35,12 @@ Les deux actions se déclenchent sur push vers `main` (et à la main), utilisent
 - Dépôt public : aucun secret, aucune donnée client, seulement des noms de variables.
 - Pour ajouter un visuel : créer le dossier au bon format de nommage, ajouter `spec.json`, puis `typefully.json` en dernier (c'est lui qui déclenche l'action).
 - Contrôles disponibles : `node --check scripts/*.mjs`. Il n'y a pas de tests ni de CI de validation.
+
+## graphify
+
+Graphe de connaissances du code, construit en local par `./scripts/graphify.sh` (extraction locale, sans IA ni tokens) dans `graphify-out/`.
+
+- En début de session, avant toute question sur le code ou toute modification, lancer `./scripts/graphify.sh`.
+- Pour trouver où vit une fonctionnalité, interroger d'abord le graphe (`graphify query "…"`, `graphify explain "…"`, `graphify path "A" "B"`), puis lire seulement les fichiers qu'il désigne.
+- Après avoir modifié du code, relancer `./scripts/graphify.sh`.
+- Ne jamais commiter `graphify-out/` (il est dans `.gitignore`).
