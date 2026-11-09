@@ -1,0 +1,88 @@
+{
+ "format": "portrait",
+ "kicker": "S23 · OBJECTIONS EN COLD CALLING",
+ "slides": [
+  {
+   "layout": "cover",
+   "kicker": "S1 · ÉP. 4 · JOUR 3 · LA MÉTHODE",
+   "title": "Ta première *phrase* a raccroché à ta place",
+   "subtitle": "Les trois premières phrases d'un appel à froid, dans l'ordre. Rappel (deal fictif) : dix secondes, puis la tonalité."
+  },
+  {
+   "layout": "quote",
+   "title": "« Vous avez deux *minutes* ? »",
+   "subtitle": "La fin de la première phrase du premier appel : une question fermée, posée avant toute raison de dire oui (appel fictif)."
+  },
+  {
+   "layout": "compare",
+   "title": "Dix secondes pour donner une *raison*",
+   "a": {
+    "tag": "Le piège",
+    "title": "Le script",
+    "items": [
+     "« Je me permets de vous appeler »",
+     "« Les entreprises comme la vôtre »",
+     "« Vous avez deux minutes ? »"
+    ]
+   },
+   "b": {
+    "tag": "Ce qui marche",
+    "title": "Le prospect",
+    "items": [
+     "Qui appelle, sans s'excuser",
+     "Pourquoi lui, pourquoi maintenant",
+     "Une question sur sa situation"
+    ]
+   }
+  },
+  {
+   "layout": "list",
+   "title": "Trois phrases, dans l'*ordre*",
+   "items": [
+    {
+     "title": "Qui tu es, en une ligne",
+     "text": "Ton prénom et ta société, sans t'excuser."
+    },
+    {
+     "title": "Pourquoi lui, maintenant",
+     "text": "Un fait de son métier ou de son actualité."
+    },
+    {
+     "title": "Une question ouverte",
+     "text": "Il parle de sa situation avant d'entendre ton offre."
+    }
+   ]
+  },
+  {
+   "layout": "quote",
+   "title": "« Je vous dis pourquoi j'appelle, et vous *décidez*. »",
+   "subtitle": "La sortie nette : il ne se sent pas piégé, il écoute la raison. Tiré de la base Skills DBR, objection « Je n'ai pas le temps »."
+  },
+  {
+   "layout": "list",
+   "title": "Et si le *non* tombe quand même ?",
+   "subtitle": "Faire préciser le non, sans plaider.",
+   "items": [
+    {
+     "title": "« Qu'est-ce qui ne vous intéresse pas, au juste ? »",
+     "text": "Il précise son refus au lieu de le répéter"
+    },
+    {
+     "title": "« Pas le temps maintenant, ou pas le temps pour ce sujet ? »",
+     "text": "Tu sépares son agenda de son intérêt"
+    },
+    {
+     "title": "« Si cela ne vous concerne pas, qui s'en occupe ? »",
+     "text": "Tu repars avec un nom, sans lui demander d'effort"
+    }
+   ],
+   "source": "Base Skills DBR"
+  },
+  {
+   "layout": "cta",
+   "title": "Écris ta première *phrase* avant de décrocher",
+   "subtitle": "Demain : l'erreur qui a failli enterrer ce prospect. Les objections du cold call, à cinq niveaux, dans DBR Sales.",
+   "button": "Essayer DBR Sales"
+  }
+ ]
+}
