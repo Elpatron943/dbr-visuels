@@ -1,0 +1,105 @@
+{
+ "format": "portrait",
+ "kicker": "S12 · ECONOMIC BUYER",
+ "slides": [
+  {
+   "layout": "cover",
+   "kicker": "S1 · ÉP. 5 · JOUR 3 · LA MÉTHODE",
+   "title": "Tu vas voir celui qui *paie* trop tard",
+   "subtitle": "Trouver qui signe le budget, et quand aller le voir. Rappel (deal fictif) : le directeur métier avait dit oui, le budget dépendait d'un directeur que personne n'avait rencontré."
+  },
+  {
+   "layout": "quote",
+   "title": "« Le budget est en cours de *validation*. »",
+   "subtitle": "Sans nom ni date, cette phrase dit souvent une chose : personne n'a encore parlé à celui qui peut dire non à un oui."
+  },
+  {
+   "layout": "list",
+   "title": "Trois questions pour le *trouver*",
+   "subtitle": "Le seuil de délégation le désigne, pas l'organigramme.",
+   "items": [
+    {
+     "title": "« Qui a validé le dernier projet de ce montant ? »",
+     "text": "Le nom qui revient, c'est ta première piste."
+    },
+    {
+     "title": "« Hors budget de l'année, qui peut le financer ? »",
+     "text": "Celui qui finance une dépense non prévue."
+    },
+    {
+     "title": "« À partir de quel montant ça remonte ? »",
+     "text": "Tu sais à quel niveau la décision se prend."
+    }
+   ]
+  },
+  {
+   "layout": "list",
+   "title": "Quatre signaux que tu ne l'as pas *vu*",
+   "subtitle": "Deux signaux ou plus : ton deal repose sur une hypothèse.",
+   "items": [
+    {
+     "title": "Budget « en cours de validation »",
+     "text": "Sans nom ni date."
+    },
+    {
+     "title": "Ton contact présente seul en interne",
+     "text": "Tu n'es pas dans la pièce où ça se décide."
+    },
+    {
+     "title": "Des critères seulement fonctionnels",
+     "text": "Aucun impact chiffré n'est attendu."
+    },
+    {
+     "title": "La date de décision recule",
+     "text": "Et personne ne te dit pourquoi."
+    }
+   ]
+  },
+  {
+   "layout": "compare",
+   "title": "Le bon moment : avant la *proposition*",
+   "a": {
+    "tag": "Le piège",
+    "title": "À la signature",
+    "items": [
+     "Il ne peut plus rien changer",
+     "Sauf refuser",
+     "La proposition est déjà partie"
+    ]
+   },
+   "b": {
+    "tag": "Ce qui marche",
+    "title": "Avant la proposition",
+    "items": [
+     "Il voit l'ordre de grandeur",
+     "Il valide la date",
+     "Ou il valide par la voix du sponsor"
+    ]
+   }
+  },
+  {
+   "layout": "list",
+   "title": "Passe par ton *sponsor*, pas au‑dessus",
+   "items": [
+    {
+     "title": "Donne‑lui une raison de te présenter",
+     "text": "Une page avec lui : problème, coût, impact, calendrier."
+    },
+    {
+     "title": "Demande la rencontre comme un service",
+     "text": "« Que voudra voir votre directeur financier avant de valider ? »"
+    },
+    {
+     "title": "Prépare vingt minutes de questions",
+     "text": "« Qu'est‑ce qui pourrait vous faire dire non ? »"
+    }
+   ]
+  },
+  {
+   "layout": "cta",
+   "title": "Pas de proposition sans cette *rencontre*",
+   "subtitle": "La méthode complète : l'article Economic Buyer sur le blog DBR. Dimanche : la réponse à l'énigme.",
+   "button": "Lire l'article"
+  }
+ ]
+}
